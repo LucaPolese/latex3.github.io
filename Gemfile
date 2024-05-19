@@ -9,7 +9,7 @@ require 'open-uri'
 #versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
 gem 'colorator'
-gem 'jekyll'
+gem 'jekyll', '>= 4.2.2'
 gem 'jekyll-last-modified-at'
 gem 'jekyll-watch'
 
